@@ -1,0 +1,181 @@
+Script started on Fri 01 Nov 2019 08:10:42 PM PDT
+]0;niena001@empress:~/cs421/cs421Assign/HW3A_LL1[?1034h[niena001@empress HW3A_LL1]$ g++ ll1.cpp
+]0;niena001@empress:~/cs421/cs421Assign/HW3A_LL1[niena001@empress HW3A_LL1]$ ./a.out
+S:     0 A 0        1 A 1    
+A:     0 0          1 1      
+B:                           
+Enter a string made of 0's and/or 1's: 1001
+Stack
+S
+------------
+current char is: 1
+adding rhs of a rule to the stack
+
+Stack
+1
+A
+1
+------------
+current char is: 1
+matched!
+
+Stack
+A
+1
+------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+0
+1
+------------
+current char is: 0
+matched!
+
+Stack
+0
+1
+------------
+current char is: 0
+matched!
+
+Stack
+1
+------------
+current char is: 1
+matched!
+
+Stack
+[ empty ]
+------------
+>>Accept!
+
+]0;niena001@empress:~/cs421/cs421Assign/HW3A_LL1[niena001@empress HW3A_LL1]$ ./a.oug++ ll1.cp[4P./a.out
+S:     0 A 0        1 A 1    
+A:     0 0          1 1      
+B:                           
+Enter a string made of 0's and/or 1's: 1011
+Stack
+S
+------------
+current char is: 1
+adding rhs of a rule to the stack
+
+Stack
+1
+A
+1
+------------
+current char is: 1
+matched!
+
+Stack
+A
+1
+------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+0
+1
+------------
+current char is: 0
+matched!
+
+Stack
+0
+1
+------------
+current char is: 1
+>>Mismatch error. Reject!
+
+
+]0;niena001@empress:~/cs421/cs421Assign/HW3A_LL1[niena001@empress HW3A_LL1]$ ./a.out
+S:     0 A 0        1 A 1    
+A:     0 0          1 1      
+B:                           
+Enter a string made of 0's and/or 1's: 0220
+Stack
+S
+------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+A
+0
+------------
+current char is: 0
+matched!
+
+Stack
+A
+0
+------------
+current char is: 2
+>>Error - no rule. Reject!
+
+
+]0;niena001@empress:~/cs421/cs421Assign/HW3A_LL1[niena001@empress HW3A_LL1]$ ./a.out
+S:     0 A 0        1 A 1    
+A:     0 0          1 1      
+B:                           
+Enter a string made of 0's and/or 1's: 0110000
+Stack
+S
+------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+A
+0
+------------
+current char is: 0
+matched!
+
+Stack
+A
+0
+------------
+current char is: 1
+adding rhs of a rule to the stack
+
+Stack
+1
+1
+0
+------------
+current char is: 1
+matched!
+
+Stack
+1
+0
+------------
+current char is: 1
+matched!
+
+Stack
+0
+------------
+current char is: 0
+matched!
+
+Stack
+[ empty ]
+------------
+current char is: 0
+>>Error - stack is empty. Reject!
+
+
+]0;niena001@empress:~/cs421/cs421Assign/HW3A_LL1[niena001@empress HW3A_LL1]$ exit
+exit
+
+Script done on Fri 01 Nov 2019 08:11:14 PM PDT

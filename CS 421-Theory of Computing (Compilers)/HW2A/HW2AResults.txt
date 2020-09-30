@@ -1,0 +1,12 @@
+Script started on Fri 27 Sep 2019 03:05:37 PM PDT
+]0;niena001@empress:~/cs421/cs421Assign/HW2A_Matrix[?1034h[niena001@empress HW2A_Matrix]$ g++ matrix.cp[1P.cp[1P.cp[1P.c
+]0;niena001@empress:~/cs421/cs421Assign/HW2A_Matrix[niena001@empress HW2A_Matrix]$ ./a.out
+Reading table from lines.txt...
+
+0 | a b c  | d e f  | - - -  | - - - 
+1 | - - -  | - - -  | g h i  | j k l 
+2 | - - -  | - - -  | - - -  | - - - 
+]0;niena001@empress:~/cs421/cs421Assign/HW2A_Matrix[niena001@empress HW2A_Matrix]$ exit
+exit
+
+Script done on Fri 27 Sep 2019 03:05:58 PM PDT

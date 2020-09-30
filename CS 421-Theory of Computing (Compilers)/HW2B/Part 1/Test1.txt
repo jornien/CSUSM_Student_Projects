@@ -1,0 +1,283 @@
+Script started on Thu 03 Oct 2019 04:25:34 PM PDT
+]0;niena001@empress:~/cs421/cs421Assign/HW2B_DFAtoScanner/Part 1[?1034h[niena001@empress Part 1]$ g++ fa.cpp
+]0;niena001@empress:~/cs421/cs421Assign/HW2B_DFAtoScanner/Part 1[niena001@empress Part 1]$ ./a.out
+Enter the input file name:fain.txt
+
+.....Scanner was called...
+>>>>>Word is:ab_2a
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 2
+character: _
+I am stuck in state 2
+Trying the ident_token machiene...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 1
+character: _
+current state: 1
+character: 2
+current state: 1
+character: a
+>>>>>Type is:IDENT
+
+.....Scanner was called...
+>>>>>Word is:a_b_2_a
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: _
+I am stuck in state 1
+Trying the ident_token machiene...
+current state: 0
+character: a
+current state: 1
+character: _
+current state: 1
+character: b
+current state: 1
+character: _
+current state: 1
+character: 2
+current state: 1
+character: _
+current state: 1
+character: a
+>>>>>Type is:IDENT
+
+.....Scanner was called...
+>>>>>Word is:.23
+Trying the mytoken machine...
+current state: 0
+character: .
+I am stuck in state 0
+Trying the ident_token machiene...
+current state: 0
+character: .
+I am stuck in state 0
+Trying the real_token machiene...
+current state: 0
+character: .
+current state: 1
+character: 2
+current state: 2
+character: 3
+>>>>>Type is:REAL
+
+.....Scanner was called...
+>>>>>Word is:23.3
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the ident_token machiene...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real_token machiene...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+current state: 1
+character: 3
+>>>>>Type is:REAL
+
+.....Scanner was called...
+>>>>>Word is:23
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the ident_token machiene...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real_token machiene...
+current state: 0
+character: 2
+current state: 0
+character: 3
+Trying the integer_token machiene...
+current state: 0
+character: 2
+current state: 1
+character: 3
+>>>>>Type is:INT
+
+.....Scanner was called...
+>>>>>Word is:ab&c
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 2
+character: &
+I am stuck in state 2
+Trying the ident_token machiene...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 1
+character: &
+I am stuck in state 1
+Trying the real_token machiene...
+current state: 0
+character: a
+I am stuck in state 0
+Trying the integer_token machiene...
+current state: 0
+character: a
+I am stuck in state 0
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:23.6
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the ident_token machiene...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real_token machiene...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+current state: 1
+character: 6
+I am stuck in state 1
+Trying the integer_token machiene...
+current state: 0
+character: 2
+current state: 1
+character: 3
+current state: 1
+character: .
+I am stuck in state 1
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:2a3
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the ident_token machiene...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real_token machiene...
+current state: 0
+character: 2
+current state: 0
+character: a
+I am stuck in state 0
+Trying the integer_token machiene...
+current state: 0
+character: 2
+current state: 1
+character: a
+I am stuck in state 1
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:22..2
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the ident_token machiene...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real_token machiene...
+current state: 0
+character: 2
+current state: 0
+character: 2
+current state: 0
+character: .
+current state: 1
+character: .
+I am stuck in state 1
+Trying the integer_token machiene...
+current state: 0
+character: 2
+current state: 1
+character: 2
+current state: 1
+character: .
+I am stuck in state 1
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:23.
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the ident_token machiene...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real_token machiene...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+Trying the integer_token machiene...
+current state: 0
+character: 2
+current state: 1
+character: 3
+current state: 1
+character: .
+I am stuck in state 1
+>>>>>Lexical Error: The string is not in my language
+>>>>>Type is:ERROR
+
+.....Scanner was called...
+>>>>>Word is:EOF
+Trying the mytoken machine...
+current state: 0
+character: E
+I am stuck in state 0
+Trying the ident_token machiene...
+current state: 0
+character: E
+I am stuck in state 0
+Trying the real_token machiene...
+current state: 0
+character: E
+I am stuck in state 0
+Trying the integer_token machiene...
+current state: 0
+character: E
+I am stuck in state 0
+>>>>>Lexical Error: The string is not in my language
+>>>>>End of File encountered
+]0;niena001@empress:~/cs421/cs421Assign/HW2B_DFAtoScanner/Part 1[niena001@empress Part 1]$ exit
+exit
+
+Script done on Thu 03 Oct 2019 04:26:07 PM PDT
